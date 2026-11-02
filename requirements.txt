@@ -1,0 +1,9 @@
+torch==2.0.0
+numpy==1.26.0
+h5py==3.9.0
+PyYAML==6.0.2
+torchmetrics==1.1.0
+lightning-utilities==0.11.6
+tensorboard==2.13.0
+protobuf==4.25.5
+loguru==0.7.3

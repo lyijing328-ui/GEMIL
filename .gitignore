@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+runs/
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.svs
+*.log
+events.out.tfevents.*

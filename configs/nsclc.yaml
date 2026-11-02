@@ -1,0 +1,27 @@
+# Effective settings stored in the original seed-4 checkpoint.
+train_epoch: 50
+B: 1
+warmup_epoch: 0
+wd: 0.00001
+lr: 0.0001
+min_lr: 0
+dataset: "nsclc"
+n_class: 2
+n_worker: 8
+pin_memory: false
+n_shot: -1
+seed: 4
+backbone: "ViT-S/16"
+pretrain: "medical_ssl"
+D_feat: 384
+D_inner: 128
+arch: "moe"
+n_token: 4
+n_masked_patch: 0
+mask_drop: 0.6
+use_focal_loss: false
+use_stratified_stkim: true
+stratified_group_ratios: [0.3, 0.4, 0.3]
+stratified_mask_rates: [0.1, 0.1, 0.1]
+tam_mode: "mask"
+tam_apply_in_eval: false
