@@ -1,7 +1,8 @@
 # Third-party notices
 
-The notices below apply to the identified third-party portions only. They do
-not declare a license for original GEMIL contributions.
+The notices below apply to the identified third-party portions. Original GEMIL
+contributions are licensed under the MIT license in LICENSE; the upstream
+copyright and permission notices below remain applicable to their portions.
 
 ## ACMIL
 

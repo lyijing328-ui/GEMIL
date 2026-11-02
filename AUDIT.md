@@ -181,14 +181,22 @@ These tests verify implementation/serialization behavior, not real-data accuracy
 
 ## Public repository preparation
 
-The owner requested a public GitHub repository with no new license for original
-GEMIL contributions for now. Software author metadata remains unconfirmed;
-therefore no `CITATION.cff` or invented author/ORCID/affiliation was added.
+The owner confirmed MIT licensing for original GEMIL contributions and the
+software authors, in this order: Jingjun Gu and Yijing Liu. `LICENSE` and
+`CITATION.cff` record these choices. Author affiliations and Jingjun Gu's ORCID
+are supplied by the owner; the ORCID checksum is valid. Yijing Liu's ORCID is
+not supplied and is omitted. Professional email addresses are not included.
+`.zenodo.json` supplies the same author order, software version 1.0.0 and MIT
+license, plus the owner's funding acknowledgement and corresponding-author
+designation. Grant numbers are recorded as text, without inventing external
+funder/project registry identifiers. Zenodo gives this JSON metadata precedence
+over CITATION.cff; the shared fields are checked for consistency.
+
 Required upstream MIT notices for the identified ACMIL/DTFD-MIL portions are
 preserved in `THIRD_PARTY_NOTICES.md`. Lunit pretrained weights are not included.
-Public source publication does not grant a new license for original GEMIL code.
-The target first software release is v1.0.0; its tag/release must not be created
-until the owner confirms the repository is enabled in Zenodo.
+The owner confirmed that the GitHub repository is enabled in Zenodo. The active
+GitHub release webhook and a successful Zenodo ping response were verified
+before preparing the first formal release, v1.0.0.
 
 ## Remaining items
 
@@ -196,6 +204,3 @@ until the owner confirms the repository is enabled in Zenodo.
 - No real feature HDF5 files were found in the project. Therefore real-feature
   prediction/performance reproduction cannot be certified locally.
 - CUDA execution is not validated on this CPU-only machine.
-- The owner chose not to add a license for original GEMIL contributions yet.
-  Author metadata and the license intended for the Zenodo software record must
-  be settled before archival; no permission or authorship is inferred here.
