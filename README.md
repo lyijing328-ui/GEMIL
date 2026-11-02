@@ -2,7 +2,7 @@
 
 ## Environment
 
-Use Python 3.10 or 3.11. Run the following commands inside `GEMIL-release`:
+Use Python 3.10 or 3.11. Run the following commands from the repository root:
 
 ```bash
 python -m venv .venv
