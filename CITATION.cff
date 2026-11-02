@@ -2,20 +2,40 @@ cff-version: 1.2.0
 message: "If you use GEMIL, please cite this software release."
 type: software
 title: "GEMIL: Gated Expert Multiple Instance Learning for Weakly Supervised Whole-Slide Image Classification"
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-11-02"
 license: MIT
 repository-code: "https://github.com/lyijing328-ui/GEMIL"
 url: "https://github.com/lyijing328-ui/GEMIL"
-abstract: "Initial research code release of the GEMIL core implementation, including training, validation, testing and fixed dataset split indices."
+abstract: "GEMIL core research implementation, including training, validation, testing and fixed dataset split indices."
 authors:
   - family-names: Gu
     given-names: Jingjun
     affiliation: "Keyi College of Zhejiang Sci-Tech University, Shaoxing, China"
+    email: "gjj@zju.edu.cn"
     orcid: "https://orcid.org/0000-0001-5714-9189"
   - family-names: Liu
     given-names: Yijing
     affiliation: "School of Future Technology, Xi'an Jiaotong University, Xi'an, China"
+    email: "yijingliu@stu.xjtu.edu.cn"
+  - family-names: Zhang
+    given-names: Wei
+    affiliation: "School of Software Technology, Zhejiang University, Hangzhou, China"
+    email: "cstzhangwei@zju.edu.cn"
+  - family-names: Cong
+    given-names: Fei
+    affiliation: "Keyi College of Zhejiang Sci-Tech University, Shaoxing, China"
+    email: "congfei@ky.zstu.edu.cn"
+  - family-names: Li
+    given-names: Yiliu
+    affiliation: "School of Medicine, Zhejiang University, Hangzhou, China"
+    email: "lewislee@zju.edu.cn"
+contact:
+  - family-names: Gu
+    given-names: Jingjun
+    affiliation: "Keyi College of Zhejiang Sci-Tech University, Shaoxing, China"
+    email: "gjj@zju.edu.cn"
+    orcid: "https://orcid.org/0000-0001-5714-9189"
 keywords:
   - computational pathology
   - multiple instance learning

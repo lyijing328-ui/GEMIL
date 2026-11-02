@@ -137,7 +137,7 @@ def main():
                                    ("test", (test_acc, test_auc, test_f1, test_loss))):
                 for metric, value in zip(("acc1", "auc", "f1", "loss"), metrics):
                     writer.add_scalar(f"perf/{split}_{metric}", value, epoch)
-            # Preserve the actual historical selection rule; see AUDIT.md.
+            # Preserve the actual historical selection rule.
             if test_f1 + test_auc > best_state["test_f1"] + best_state["test_auc"]:
                 best_state.update(epoch=epoch, val_auc=val_auc, val_acc=val_acc, val_f1=val_f1,
                                   test_auc=test_auc, test_acc=test_acc, test_f1=test_f1)

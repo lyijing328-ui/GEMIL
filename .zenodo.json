@@ -1,9 +1,9 @@
 {
   "title": "GEMIL: Gated Expert Multiple Instance Learning for Weakly Supervised Whole-Slide Image Classification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upload_type": "software",
   "publication_date": "2026-11-02",
-  "description": "Initial research code release of the GEMIL core implementation for weakly supervised whole-slide image classification. Includes GMEA, training-only TAM, gating and training losses, training/validation/testing entry points, medical-SSL configurations, and fixed split CSVs for CAMELYON16, BRACS, and TCGA-NSCLC. WSI images, feature files, trained checkpoints, and experimental analysis code are not included. See README.md for usage and AUDIT.md for verification scope, split differences, and the preserved historical checkpoint-selection rule.",
+  "description": "GEMIL core research implementation for weakly supervised whole-slide image classification. Includes GMEA, training-only TAM, gating and training losses, training/validation/testing entry points, medical-SSL configurations, and fixed split CSVs for CAMELYON16, BRACS, and TCGA-NSCLC. WSI images, feature files, trained checkpoints, and experimental analysis code are not included. See README.md for usage. The historical checkpoint-selection rule uses test AUC plus test F1 and is preserved for consistency.",
   "access_right": "open",
   "license": "mit",
   "creators": [
@@ -15,6 +15,18 @@
     {
       "name": "Liu, Yijing",
       "affiliation": "School of Future Technology, Xi'an Jiaotong University, Xi'an, China"
+    },
+    {
+      "name": "Zhang, Wei",
+      "affiliation": "School of Software Technology, Zhejiang University, Hangzhou, China"
+    },
+    {
+      "name": "Cong, Fei",
+      "affiliation": "Keyi College of Zhejiang Sci-Tech University, Shaoxing, China"
+    },
+    {
+      "name": "Li, Yiliu",
+      "affiliation": "School of Medicine, Zhejiang University, Hangzhou, China"
     }
   ],
   "keywords": [
@@ -23,5 +35,5 @@
     "whole-slide image classification"
   ],
   "language": "eng",
-  "notes": "Corresponding author: Jingjun Gu. Funding: This work was supported by the Science Foundation of Keyi College of Zhejiang Sci-Tech University under Grant No. KYQD251104 and the Noncommunicable Chronic Diseases-National Science and Technology Major Project under Grant No. 2025ZD0544500. Third-party copyright and license notices are retained in THIRD_PARTY_NOTICES.md."
+  "notes": "Corresponding author: Jingjun Gu (gjj@zju.edu.cn). Funding: This work was supported by the Science Foundation of Keyi College of Zhejiang Sci-Tech University under Grant No. KYQD251104 and the Noncommunicable Chronic Diseases-National Science and Technology Major Project under Grant No. 2025ZD0544500. Third-party copyright and license notices are retained in LICENSE."
 }

@@ -1,6 +1,6 @@
 """Required original helpers recovered from the verified model_source_snapshot.
 
-Only unrelated functions and unused imports were removed. See AUDIT.md.
+Only unrelated functions and unused imports were removed.
 """
 
 import math

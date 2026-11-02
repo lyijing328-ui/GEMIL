@@ -60,7 +60,7 @@ python gemil.py --config configs/nsclc.yaml --features /path/to/nsclc_medical_ss
 Configs preserve the effective seed-4 checkpoint settings. Training writes
 `checkpoint-best.pth`, `checkpoint-last.pth`, config, metrics and TensorBoard
 events. The historical best-checkpoint rule uses **test AUC + test F1** and is
-preserved for consistency (see `AUDIT.md`). `--device cpu` forces CPU execution;
+preserved for consistency. `--device cpu` forces CPU execution;
 the default is automatic CUDA/CPU selection. Set `n_worker: 0` in the config
 when multiprocessing is unavailable.
 
